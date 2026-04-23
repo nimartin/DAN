@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1a0a14" />
+            <stop offset="100%" stop-color="#3a1228" />
+        </linearGradient>
+        <linearGradient id="jacket" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FF7A2E" />
+            <stop offset="100%" stop-color="#D14B00" />
+        </linearGradient>
+        <linearGradient id="bag1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFB7CE" />
+            <stop offset="100%" stop-color="#FF8AB5" />
+        </linearGradient>
+        <linearGradient id="bag2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#9DD8E8" />
+            <stop offset="100%" stop-color="#6BB8CC" />
+        </linearGradient>
+        <linearGradient id="bag3" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFFFFF" />
+            <stop offset="100%" stop-color="#E6E6E6" />
+        </linearGradient>
+        <radialGradient id="spot" cx="50%" cy="60%" r="50%">
+            <stop offset="0%" stop-color="rgba(255,0,127,0.25)" />
+            <stop offset="100%" stop-color="rgba(255,0,127,0)" />
+        </radialGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="400" height="400" fill="url(#bg)" />
+    <ellipse cx="200" cy="280" rx="180" ry="120" fill="url(#spot)" />
+
+    <!-- Stars -->
+    <g fill="#FF007F" opacity="0.7">
+        <circle cx="60" cy="60" r="2" />
+        <circle cx="340" cy="80" r="1.5" />
+        <circle cx="320" cy="180" r="2" />
+        <circle cx="80" cy="220" r="1.5" />
+        <circle cx="50" cy="320" r="2" />
+        <circle cx="350" cy="320" r="1.5" />
+    </g>
+
+    <!-- Shadow -->
+    <ellipse cx="200" cy="380" rx="100" ry="10" fill="#000" opacity="0.5" />
+
+    <!-- Pants -->
+    <path d="M 170 280 L 165 380 L 195 380 L 200 290 L 205 380 L 235 380 L 230 280 Z" fill="#1a1a2e" />
+
+    <!-- Shoes -->
+    <ellipse cx="180" cy="382" rx="18" ry="6" fill="#0a0a14" />
+    <ellipse cx="220" cy="382" rx="18" ry="6" fill="#0a0a14" />
+
+    <!-- Jacket body -->
+    <path
+        d="M 145 175 Q 140 220 150 285 L 250 285 Q 260 220 255 175 Q 245 145 200 142 Q 155 145 145 175 Z"
+        fill="url(#jacket)" />
+
+    <!-- Shirt -->
+    <path d="M 178 175 L 175 240 L 225 240 L 222 175 Q 210 168 200 168 Q 190 168 178 175 Z"
+        fill="#FFA470" />
+
+    <!-- Lapels -->
+    <path d="M 178 175 L 195 180 L 200 215 L 178 220 Z" fill="#C73D00" opacity="0.6" />
+    <path d="M 222 175 L 205 180 L 200 215 L 222 220 Z" fill="#C73D00" opacity="0.6" />
+
+    <!-- Arms -->
+    <path d="M 145 175 Q 130 200 125 240 Q 122 270 130 290 L 150 285 Q 145 250 150 220 Z"
+        fill="url(#jacket)" />
+    <path d="M 255 175 Q 270 200 275 240 Q 278 270 270 290 L 250 285 Q 255 250 250 220 Z"
+        fill="url(#jacket)" />
+
+    <!-- Hands -->
+    <circle cx="128" cy="290" r="10" fill="#E8B89C" />
+    <circle cx="272" cy="290" r="10" fill="#E8B89C" />
+
+    <!-- Bags -->
+    <!-- Pink bag (left) -->
+    <rect x="95" y="290" width="55" height="65" rx="4" fill="url(#bag1)" />
+    <path d="M 105 290 Q 110 275 122 275 Q 134 275 140 290" stroke="#FF8AB5" stroke-width="2"
+        fill="none" />
+    <circle cx="122" cy="320" r="4" fill="#FF007F" opacity="0.7" />
+
+    <!-- Blue bag (left small) -->
+    <rect x="80" y="305" width="40" height="50" rx="3" fill="url(#bag2)" />
+    <path d="M 87 305 Q 92 295 100 295 Q 108 295 113 305" stroke="#6BB8CC" stroke-width="2"
+        fill="none" />
+
+    <!-- White bag (right) -->
+    <rect x="250" y="295" width="55" height="60" rx="4" fill="url(#bag3)" />
+    <path d="M 260 295 Q 265 282 277 282 Q 290 282 295 295" stroke="#CCCCCC" stroke-width="2"
+        fill="none" />
+
+    <!-- Pink small bag (right) -->
+    <rect x="290" y="310" width="38" height="45" rx="3" fill="url(#bag1)" />
+    <path d="M 297 310 Q 302 300 309 300 Q 316 300 322 310" stroke="#FF8AB5" stroke-width="2"
+        fill="none" />
+
+    <!-- Head -->
+    <ellipse cx="200" cy="115" rx="32" ry="38" fill="#E8B89C" />
+
+    <!-- Hair -->
+    <path
+        d="M 168 95 Q 168 75 200 72 Q 232 75 232 95 Q 232 105 228 110 L 220 90 Q 200 78 180 90 L 172 110 Q 168 105 168 95 Z"
+        fill="#1a0a05" />
+
+    <!-- Glasses -->
+    <circle cx="188" cy="115" r="8" fill="none" stroke="#0a0a14" stroke-width="2" />
+    <circle cx="212" cy="115" r="8" fill="none" stroke="#0a0a14" stroke-width="2" />
+    <line x1="196" y1="115" x2="204" y2="115" stroke="#0a0a14" stroke-width="2" />
+
+    <!-- Mouth -->
+    <path d="M 192 132 Q 200 136 208 132" stroke="#5a2a1a" stroke-width="1.5" fill="none"
+        stroke-linecap="round" />
+
+    <!-- Beard hint -->
+    <path d="M 185 138 Q 200 142 215 138" stroke="#1a0a05" stroke-width="1" opacity="0.4"
+        fill="none" />
+
+    <!-- Caption -->
+    <text x="200" y="395" text-anchor="middle" fill="#FF007F" font-family="Epilogue, sans-serif"
+        font-weight="700" font-size="9" letter-spacing="2">LUXURY MISNOIGHBOR</text>
+</svg>
