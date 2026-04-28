@@ -202,7 +202,6 @@ function StepAmount({ data, onAmountChange }) {
             value={data.amount}
             onChange={(e) => onAmountChange(e.target.value)}
             autoComplete="off"
-            autoFocus
           />
           <span className="amount-currency">€</span>
         </div>
@@ -238,7 +237,6 @@ function StepIdentity({ data, update }) {
           value={data.name}
           onChange={(e) => update({ name: e.target.value })}
           autoComplete="given-name"
-          autoFocus
         />
       </div>
       <div className="card card--input">
