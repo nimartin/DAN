@@ -134,16 +134,15 @@ a {
   backdrop-filter: blur(12px);
 }
 .topbar__logo {
-  font-family: var(--font-h);
-  font-weight: 900;
-  font-style: italic;
-  font-size: 22px;
   margin: 0;
-  background: var(--grad-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+.topbar__logo-img {
+  height: 45px;
+  width: auto;
+  display: block;
 }
 .topbar__icons {
   display: flex;
@@ -197,10 +196,10 @@ a {
   padding-bottom: 0;
 }
 .hero__img {
-  width: 230px;
-  height: 230px;
+  width: 160px;
+  height: 160px;
   margin: 6px auto 18px;
-  border-radius: 18px;
+  border-radius: 30px;
   overflow: hidden;
   box-shadow:
     0 20px 40px -20px rgba(0, 0, 0, 0.4),
@@ -1089,9 +1088,16 @@ form.is-shaking {
   animation: shakeX 0.3s ease;
 }
 @keyframes shakeX {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-6px); }
-  75% { transform: translateX(6px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
 }
 .dialog__actions {
   display: flex;

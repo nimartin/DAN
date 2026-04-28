@@ -42,7 +42,9 @@ export default function Layout() {
                 ‹
               </span>
             )}
-            <h1 className="topbar__logo">DAN</h1>
+            <h1 className="topbar__logo">
+              <img src="/logo.png" alt="DAN" className="topbar__logo-img" />
+            </h1>
             <div className="topbar__icons">
               <span
                 className="sync-dot"

@@ -5,7 +5,7 @@ export default function Home() {
     <section className="view">
       <div className="hero">
         <div className="hero__img" aria-hidden="true">
-          <img src="/hero.svg" alt="" />
+          <img src="/hero.png" alt="" />
         </div>
         <h2 className="hero__title">
           Bonjour, Princess. <span>✨</span>
